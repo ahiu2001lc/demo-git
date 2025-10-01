@@ -10,7 +10,7 @@ public class PublicApiController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello from feature/hello-api!";
+        return "hello from Alice!";
     }
 
     @GetMapping("/goodbye")
