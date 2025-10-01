@@ -10,7 +10,7 @@ public class PublicApiController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello from Bob!";
+        return "hello from Alice & Bob!";
     }
 
     @GetMapping("/goodbye")
