@@ -10,6 +10,6 @@ public class TestConflictController {
 
     @GetMapping("/v1/hello")
     public String helloV1(){
-        return "version: Alice";
+        return "version: Alice and Bob";
     }
 }
