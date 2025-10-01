@@ -12,4 +12,9 @@ public class PublicApiController {
     public String hello(){
         return "hello from feature/hello-api!";
     }
+
+    @GetMapping("/goodbye")
+    public String goodbye(){
+        return "Goodbye from feature/goodbye-api!";
+    }
 }
