@@ -15,6 +15,6 @@ public class PublicApiController {
 
     @GetMapping("/goodbye")
     public String goodbye(){
-        return "Goodbye from feature/goodbye-api!";
+        return "Goodbye from bob!";
     }
 }
